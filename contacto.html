@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto en Clase</title>
+</head>
+
+<body>
+    <h1>Mi Primer Formulario</h1>
+    <form action="procesar.php" method="post">
+        <label for="fr_nombre">Nombre:</label><br>
+        <input type="text" name="fr_nombre" id="fr_nombre"><br>
+        <label for="fr_email">Email</label><br>
+        <input type="email" name="fr_email" id="fr_email"><br>
+        <label for="fr_fechna">Fecha de Nacimiento</label><br>
+        <input type="date" name="fr_fechana" id="fr_fechana"><br>
+        <label for="fr_mensaje">Mensaje</label><br>
+        <textarea name="fr_mensaje" id="fr_mensaje" cols="30" rows="10"></textarea><br>
+        <label for="fr_sexo">Sexo:</label><br>
+        <select name="fr_sexo" id="fr_sexo">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+        </select><br>
+        <br>
+        <input type="submit" vlue="Enviar">
+    </form>
+
+</body>
+
+</html>
